@@ -1,91 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
     <title>Balals Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+          href="./style.css">
 </head>
-<body>
-    <main class="hero-js">
 
-    <div class="background-image">
-        <nav>
-            <ul class="navbar-projects-page">
-                <li><a href="./index.html" class="nav-link-projects-page">home</a></li>
-                <li><a href="./html-projects.html" class="nav-link-projects-page">html&css</a></li>
-                <li><a href="./js-projects.html" class="nav-link-projects-page">javascript</a></li>
-                <li><a href="./react-projects.html" class="nav-link-projects-page">react</a></li>
+<body>
+    <main class="hero">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="./index.html"
+                       class="nav-link">home</a></li>
+                <li><a href="./cv.html"
+                       class="nav-link">cv</a></li>
+                <li><a href="./html-projects.html"
+                       class="nav-link">html&css</a></li>
+                <li><a href="./js-projects.html"
+                       class="nav-link">javascript</a></li>
+                <li><a href="./react-projects.html"
+                       class="nav-link">react</a></li>
             </ul>
-        </nav>
-        <div class="banner">
-            <div class="projects-page-main-title">
-                    <h1>javascript projects</h1>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-        </div>
-        <section class="cards scroller">
-            <div class="cards-center">
-                <!-- single card -->
-                <div class="card">
-                <!-- front of card -->
-                    <div class="card-side card-front">
-                        <img src="./images/comfy-main.png" alt="comfy-home"/>
-                        <div class="card-info">
-                            <h2>Comfy Home</h2>
-                            <h3>Html, Css, JS, Contentful & Netlify</h3>
-                            <p> Comfy home project is an ecommerce website with a fully functioning shopping cart, making api calls to fetch data. 
-                                Contentful was used for the content management system, and netlify for web hosting.
-                            </p>
+        </nav>
+        <section class="main-content">
+            <div class="page-main-title">
+                <h1>Javascript Projects</h1>
+            </div>
+            <section class="cards scroller">
+                <div class="cards-center">
+                    <!-- single card -->
+                    <div class="card">
+                        <!-- front of card -->
+                        <div class="card-side card-front">
+                            <img src="./images/comfy-main.png"
+                                 alt="comfy-home" />
+                            <div class="card-info">
+                                <h2>Comfy Home</h2>
+                                <h3>Html, Css, JS, Contentful & Netlify</h3>
+                                <p> Ecommerce website with a functioning shopping cart.
+                                    Contentful was used for the content management system, and netlify for web hosting.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <!-- back of card -->
-                    <div class="card-side card-back">
+                        <!-- back of card -->
+                        <div class="card-side card-back">
                             <p class="info-page-btn"><a href="https://comfystoreandco.netlify.app/">Take A Look</a></p>
-                    </div>
-                </div>
-                <!-- End Of Single Card -->
-                <!-- single card -->
-                <div class="card">
-                    <!-- front of card -->
-                    <div class="card-side card-front">                       
-                        <img src="./images/drinks-bcg3.png" alt="cocktaildbapi">
-                        <div class="card-info">
-                            <h2>Drinks House</h2>
-                            <h3>Vanilla JS API Project</h4>
-                            <p> Drinks house project was created to practise api calls from the cocktaildb 
-                                api using ES6 async & await asynchronous programming.
-                            </p>
                         </div>
                     </div>
-                    <!-- back of card -->
-                    <div class="card-side card-back">
-                        <p class="info-page-btn"><a href="https://drinkshouse.netlify.app/">Take A Look</a></p>
-                    </div>
-                </div>
-                <!-- End Of Single Card -->
-                <!-- single card -->
-                <div class="card">
-                    <!-- front of card -->
-                    <div class="card-side card-front">                       
-                        <img src="./images/weather-app-bcg.png" alt="weather-app">
-                        <div class="card-info">
-                            <h2>Weather App</h2>
-                            <h3>Vanilla JS API Project</h4>
-                            <p> This weather app was created to practise api calls from openweathermap 
-                                api using ES6 async & await asynchronous programming.
-                            </p>
+                    <!-- End Of Single Card -->
+                    <!-- single card -->
+                    <div class="card">
+                        <!-- front of card -->
+                        <div class="card-side card-front">
+                            <img src="./images/drinks-bcg3.png"
+                                 alt="cocktaildbapi">
+                            <div class="card-info">
+                                <h2>Drinks House</h2>
+                                <h3>Vanilla JS API Project</h4>
+                                    <p> Drinks house project was created to practise api calls from the cocktaildb
+                                        api using ES6 async & await asynchronous programming.
+                                    </p>
+                            </div>
+                        </div>
+                        <!-- back of card -->
+                        <div class="card-side card-back">
+                            <p class="info-page-btn"><a href="https://drinkshouse.netlify.app/">Take A Look</a></p>
                         </div>
                     </div>
-                    <!-- back of card -->
-                    <div class="card-side card-back">
-                        <p class="info-page-btn"><a href="https://immediateweather.netlify.app/">Take A Look</a></p>
+                    <!-- End Of Single Card -->
+                    <!-- single card -->
+                    <div class="card">
+                        <!-- front of card -->
+                        <div class="card-side card-front">
+                            <img src="./images/weather-app-bcg.png"
+                                 alt="weather-app">
+                            <div class="card-info">
+                                <h2>Weather App</h2>
+                                <h3>Vanilla JS API Project</h4>
+                                    <p> This weather app was created to practise api calls from openweathermap
+                                        api using ES6 async & await asynchronous programming.
+                                    </p>
+                            </div>
+                        </div>
+                        <!-- back of card -->
+                        <div class="card-side card-back">
+                            <p class="info-page-btn"><a href="https://immediateweather.netlify.app/">Take A Look</a></p>
+                        </div>
                     </div>
+                    <!-- End Of Single Card -->
                 </div>
-                <!-- End Of Single Card -->
-                </div>
+            </section>
         </section>
-</div>
-</main>
+    </main>
+    <script src="./nav.js"></script>
 </body>
+
 </html>

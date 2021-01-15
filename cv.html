@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <title>Balals Portfolio</title>
+    <link rel="stylesheet"
+          href="./style.css">
+</head>
+
+<body>
+    <main id="hero">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="./index.html"
+                       class="nav-link">home</a></li>
+                <li><a href="./cv.html"
+                       class="nav-link">cv</a></li>
+                <li><a href="./html-projects.html"
+                       class="nav-link">html&css</a></li>
+                <li><a href="./js-projects.html"
+                       class="nav-link">javascript</a></li>
+                <li><a href="./react-projects.html"
+                       class="nav-link">react</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="cv-main-content">
+            <div class="page-main-title">
+                <h1>About Me</h1>
+            </div>
+            <div id="cv-main-info">
+
+                <p>In 2018 I decided to dedicate my time to improve and upskill my tech stack.
+                </p>
+            </div>
+            <section class="cv-section-wrapper">
+                <div id="cv-btn-container">
+                    <button onclick="toggleDev()"
+                            class="flex-item4 btn">
+                        <p>Professional Development</p>
+                    </button>
+                    <button onclick="toggleEmployment()"
+                            class="flex-item4 btn">
+                        <p>Employment</p>
+                    </button>
+                    <button onclick="toggleContact()"
+                            class="flex-item4 btn">
+                        <p>Contact Info</p>
+                    </button>
+                </div>
+                <div id="toggle-dev">
+                    <article class="course-container">
+                        <div class="course-heading">
+                            <h2 class="cv-sub-title">React Projects Course – John Smilga (Udemy)</h2>
+                            <h2 class="cv-sub-date">Dec 2020 – Feb 2021</h2>
+                        </div>
+                        <h3 class="cv-sub-info">React Basic Principles, Forms, React Hooks, Custom Hooks, Prop-Types,
+                            React
+                            Router, Redux
+                        </h3>
+                    </article>
+                    <article class="course-container">
+                        <div class="course-heading">
+                            <h3 class="cv-sub-title">JavaScript Projects Course – John Smilga (Udemy)</h3>
+                            <h3 class="cv-sub-date">Sep 2020 – Nov 2020</h3>
+                        </div>
+                        <h3 class="cv-sub-info">Helper Methods, Asynchronous Requests (async, promises, api calls), DOM
+                            Manipulation, Modules,
+                            Closures</h3>
+                    </article>
+                    <article class="course-container">
+                        <div class="course-heading">
+                            <h2 class="cv-sub-title">HTML & CSS Projects Course – John Smilga (Udemy) </h2>
+                            <h2 class="cv-sub-date">May 2020 – Aug 2020</h2>
+                        </div>
+                        <h3 class="cv-sub-info">Semantics, CSS Grid, Flexbox, CSS-Units, Selectors, Display, Positions,
+                            Colours </h3>
+                    </article>
+                    <article class="course-container">
+                        <div class="course-heading">
+                            <h2 class="cv-sub-title">The Complete 2020 Web Development Bootcamp – Angela Yu (Udemy)</h2>
+                            <h2 class="cv-sub-date">Dec 2019 – Apr 2020</h2>
+                        </div>
+                        <h3 class="cv-sub-info">HTML 5,
+                            CSS, FlexBox, API’s, EJS, lodash, jQuery, Mongoose (CRUD), MongoDB,
+                            Express, React, NodeJS.
+                        </h3>
+                    </article>
+                    <article class="course-container">
+                        <div class="course-heading">
+                            <h2 class="cv-sub-title">Modern JavaScript From The Beginning – Brad Traversy (Udemy)</h2>
+                            <h2 class="cv-sub-date">June 2019 – Nov 2019</h2>
+                        </div>
+                        <h3 class="cv-sub-info">ES6, JSON, Classes, Destructuring, Helper Methods, Object
+                            Orientated JavaScript
+                            , Error Handling, Regular Expressions, Design Patterns </h3>
+                    </article>
+                    <article class="course-container">
+                        <div class="course-heading">
+                            <h3 class="cv-sub-title">BSc (Hons) - Architectural Design Technology, Coventry University
+                            </h3>
+                            <h3 class="cv-sub-date">Sep 2009 – Dec 2012</h3>
+                        </div>
+                        <h5 class="cv-sub-info">Upper-class 2:1</h5>
+                    </article>
+                </div>
+            </section>
+
+            <section class="cv-section-wrapper">
+                <div id="toggle-employment">
+                    <article class="course-container">
+                        <div class="course-heading">
+                            <h2 class="cv-sub-title">Creative Coders – Junior Developer - Remote</h2>
+                            <h2 class="cv-sub-date">Sep 2017 - May 2018</h2>
+                        </div>
+                        <div class="cv-sub-info">
+                            <h3>Development of client websites using HTML, CSS, JavaScript, JQuery</h3> <br />
+                            <h3>Ensuring all code is committed into Github respositories</h3><br />
+                            <h3>Liaising with freelance designers to get necessary Photoshop files</h3><br />
+                        </div>
+                    </article>
+                    <article class="course-container">
+                        <div class="course-heading">
+                            <h2 class="cv-sub-title">Irfan Akram architecture.design – Part 1 Architectural Assistant -
+                                High
+                                Wycombe
+                            </h2>
+                            <h2 class="cv-sub-date">Sep 2013 – Dec 2015</h2>
+                        </div>
+                        <div class="cv-sub-info">
+                            <h3>Preparing scheme designs for Architect/Technicians & Amending drawings for design team
+                            </h3>
+                            <br />
+                            <h3>Developing Architectural floor plans for residential projects using AutoCAD</h3> <br />
+                            <h3>Shadowing Site inspections, Liaising with contractors & design team </h3><br />
+                            <h3>Liaising with clients and Identifying client requirements, Planning application
+                                submissions
+                            </h3>
+                            <br />
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="cv-section-wrapper">
+                <div id="toggle-contact">
+                    <article class="course-container">
+                        <div class="contact-container">
+                            <h3 class="cv-sub-info">Selly Oak, Birmingham</h3>
+                            <h3 class="cv-sub-info">balal.mohammed@hotmail.co.uk</h3>
+                            <h3 class="cv-sub-info">07305798721</h3>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+    <script src="./nav-cv.js"></script>
+
+</body>
+
+</html>

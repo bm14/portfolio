@@ -1,41 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Balals Portfolio</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <nav>
-            <ul class="navbar">
-                <!-- <li><a href="./index.html" class="nav-link">home</a></li>
-                <li><a href="./about.html" class="nav-link">about</a></li>
-                <li><a href="" class="nav-link">projects</a></li>
-                <li><a href="" class="nav-link">contact</a></li> -->
-                <li><a href="./index.html" class="nav-link">home</a></li>
-                <li><a href="./html-projects.html" class="nav-link">html&css</a></li>
-                <li><a href="./js-projects.html" class="nav-link">javascript</a></li>
-                <li><a href="./react-projects.html" class="nav-link">react</a></li>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <title>Balals Portfolio</title>
+    <link rel="stylesheet"
+          href="./style.css">
+</head>
+
+<body>
+    <main class="hero">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="./index.html"
+                       class="nav-link">home</a></li>
+                <li><a href="./cv.html"
+                       class="nav-link">cv</a></li>
+                <li><a href="./html-projects.html"
+                       class="nav-link">html&css</a></li>
+                <li><a href="./js-projects.html"
+                       class="nav-link">javascript</a></li>
+                <li><a href="./react-projects.html"
+                       class="nav-link">react</a></li>
             </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
-        <main class="hero">
+        <section class="cv-main-content">
             <div class="hero-banner">
                 <div class="main-title">
-                    <h1>Balals Portfolio</h1>
+                    <h1>Balal Mohammed</h1>
                 </div>
                 <div class="main-subtitle">
-                    <h4>Take a look at my projects</h4>
-                </div> 
+                    <h4><span class="homepage-title">Junior Frontend Dev</span> | Take a look at my projects</h4>
+                </div>
             </div>
             <section>
                 <div class="flexbox-container">
-                    <div class="flex-item1 btn"><a href="./html-projects.html"><p>html & css</p></a></div>
-                    <div class="flex-item2 btn"><a href="./js-projects.html"><p>javascript</p></a></div>
-                    <div class="flex-item3 btn"><a href="./react-projects.html"><p>react</p></a></div>
+                    <div class="flex-item1 btn"><a href="./html-projects.html">
+                            <p>html & css</p>
+                        </a></div>
+                    <div class="flex-item1 btn"><a href="./js-projects.html">
+                            <p>javascript</p>
+                        </a></div>
+                    <div class="flex-item1 btn"><a href="./react-projects.html">
+                            <p>react</p>
+                        </a></div>
                 </div>
             </section>
-        </main>
-    </body>
+        </section>
+    </main>
+    <script src="./nav-index.js"></script>
+    <script src="./index.js"></script>
+</body>
+
 </html>
