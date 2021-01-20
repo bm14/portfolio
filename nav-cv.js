@@ -2,11 +2,6 @@ const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links li");
-  const heros = document.querySelectorAll("#hero .hero");
-  const card = document.querySelector(".cards");
-  const title = document.querySelector(".page-main-title");
-  const hero = document.querySelector(".hero");
-  const mainContent = document.querySelector(".main-content");
   const cvMainContent = document.querySelector(".cv-main-content");
   const heroCv = document.getElementById("hero");
 
