@@ -9,11 +9,11 @@
           content="ie=edge">
     <title>Balals Portfolio</title>
     <link rel="stylesheet"
-          href="./style.css">
+          href="./css/project-pages.css">
 </head>
 
 <body>
-    <main class="hero">
+    <section class="hero">
         <nav class="navbar">
             <ul class="nav-links">
                 <li><a href="./index.html"
@@ -33,77 +33,63 @@
                 <div class="line3"></div>
             </div>
         </nav>
-        <section class="main-content">
+        <main class="main-content">
             <div class="page-main-title">
                 <h1>React Projects</h1>
             </div>
-            <section class="cards">
-                <div class="cards-center">
-                    <!-- single card -->
-                    <div class="card">
+            <section class="slideshow-container">
+                <section>
+                    <!-- single card Project 1-->
+                    <article class="mySlides fade">
                         <!-- front of card -->
-                        <div class="card-side card-front">
-                            <img src="./images/restaurant.png"
-                                 alt="chef de cuisine" />
-                            <div class="card-info">
-                                <h2>Chef De Cuisine & Co.</h2>
-                                <h3>React, Redux, Javascript, CSS, HTML</h3>
-                                <p>This project was completed as part of my React course with Hong Kong
-                                    University.<br />
-                                    I Developed a Restuarant website using React and Javascript.</p>
+                        <div class="card-grid">
+                            <div class="card-left">
+                                <div class="card ">
+                                    <img src="./images/restaurant.png"
+                                         alt="chef de cuisine" />
+                                </div>
+                            </div>
+                            <div class="card card-front">
+                                <div class="numberText">
+                                    <h2>1/1</h2>
+                                </div>
+                                <div class="card-right ">
+                                    <div class="card-info">
+                                        <h2>Chef De Cuisine & Co.</h2>
+                                        <h3>React, Redux, Javascript, CSS, HTML</h3>
+                                        <p>Utilising fetch requests, event Handlers, redux.
+                                            <br />
+                                            <br />
+                                            *Please Note some functionality doesn't work, as project is currently being
+                                            re-written in React Hooks</p>
+                                        <p class="info-page-btn react-info-btn"><a
+                                               href="http://d1zbjqseze6y28.cloudfront.net/home">Take A Look</a>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <!-- back of card -->
-                        <div class="card-side card-back">
-                            <p class="info-page-btn"><a href="http://d1zbjqseze6y28.cloudfront.net/home">Take A Look</a>
-                            </p>
-                        </div>
-                    </div>
+                    </article>
                     <!-- End Of Single Card -->
-                    <!-- single card -->
-                    <div class="card">
-                        <!-- front of card -->
-                        <div class="card-side card-front">
-                            <img src="./images/coming-soon.jpg"
-                                 alt="chef de cuisine" />
-                            <div class="card-info">
-                                <h2>React Project 2</h2>
-                                <h3>Coming Soon</h3>
-                                <p>Sorry this project is currently being developed and will be uploaded once completed
-                                </p>
-                            </div>
-                        </div>
-                        <!-- back of card -->
-                        <div class="card-side card-back">
-                            <p class="info-page-btn"><a href="react-projects.html">Take A Look</a></p>
-                        </div>
-                    </div>
-                    <!-- End Of Single Card -->
-                    <!-- single card -->
-                    <div class="card">
-                        <!-- front of card -->
-                        <div class="card-side card-front">
-                            <img src="./images/coming-soon.jpg"
-                                 alt="chef de cuisine" />
-                            <div class="card-info">
-                                <h2>React Project 3</h2>
-                                <h3>coming soon</h3>
-                                <p>Sorry this project is currently being developed and will be uploaded once completed
-                                </p>
-                            </div>
-                        </div>
-                        <!-- back of card -->
-                        <div class="card-side card-back">
-                            <p class="info-page-btn"><a href="react-projects.html">Take A Look</a></p>
-                        </div>
-                    </div>
-                    <!-- End Of Single Card -->
-                </div>
+
+                </section>
+
+                <!-- Next and previous buttons -->
+                <a class="prev"
+                   onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next"
+                   onclick="plusSlides(1)">&#10095;</a>
             </section>
-            </div>
-        </section>
-    </main>
+            <br />
+            <!-- The dots/circles -->
+            <section style="text-align:center">
+                <span class="dot"
+                      onclick="currentSlide(1)"></span>
+            </section>
+        </main>
+    </section>
     <script src="./nav.js"></script>
+    <script src="./slider.js"></script>
 </body>
 
 </html>
